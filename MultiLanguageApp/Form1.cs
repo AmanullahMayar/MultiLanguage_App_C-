@@ -74,10 +74,7 @@ namespace MultiLanguageApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Retrieve the welcome message from the resource file for the current language
             string welcomeMessage = Resources.Resource.WelcomeMessage;
-
-            // Display the welcome message
             MessageBox.Show(welcomeMessage);
         }
     }
